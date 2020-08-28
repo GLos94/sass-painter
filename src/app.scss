@@ -1,0 +1,30 @@
+@import "partials/_variables.scss";
+@import "partials/_common.scss";
+
+
+* {
+
+  margin: 0;
+  padding: 0;
+
+}
+
+
+@import "partials/_header.scss";
+@import "partials/_options.scss";
+@import "partials/_tools.scss";
+@import "partials/_footer.scss";
+
+
+body{
+  margin: 0;
+  padding: 0;
+  // background: $bg_primary;
+  // color: $cl_primary;
+}
+
+
+div.container{
+  margin: 0 18%;
+
+}

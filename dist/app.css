@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div.personal {
+  background-color: black;
+}
+
+div.personal li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+div.personal a {
+  color: grey;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div.container {
+  margin: 0 18%;
+}
+
