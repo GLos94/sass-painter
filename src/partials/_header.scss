@@ -1,16 +1,144 @@
 
 
 div.personal{
+
   background-color: black;
+  display: flex;
+  justify-content: flex-end;
+
+    ul{
+      margin-top: 9px;
+      margin-right: 20%;
+    }
+
+    li{
+      list-style-type: none;
+      display: inline-block;
+      padding-right: 20px;
+    }
+
+    a{
+      color: grey;
+      font-size: 12px;
+      text-decoration: none;
+    }
+
+    a:hover{
+      text-decoration: underline;
+    }
+
+    i{
+      color: #009cff;
+      margin-right: 9px;
+
+    }
+
+}
+
+
+div.navbar_header{
+  height: 70px;
+  background-color: black;
+
+
+    ul{
+      margin-left: 20%;
+      padding-top: 20px;
+
+    }
+
+
+    li{
+      list-style-type: none;
+      display: inline-block;
+      padding-right: 40px;
+    }
+
+    a{
+      color: white;
+      font-size: 14px;
+      text-decoration: none;
+    }
+
+    i{
+      color: grey;
+      font-size: 12px;
+      margin-left: 5px;
+    }
+
+    img{
+      width: 92px;
+    }
+
+}
+
+
+div.jumbotron{
+  width: 100%;
+  height: 450px;
+  background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  color: white;
+
+  // display: flex;
+  // justify-content: space-around;
+
+  .essentials{
+    width: 25%;
+    padding-top: 37px;
+    margin-left: 34%;
+
+    float: left;
+  }
+
+  .offer{
+    width: 22%;
+    height: 430px;
+    margin-top: 1%;
+    background-color: black;
+
+    float: left;
+
+  }
+
+    h2{
+      line-height: 2.5;
+      font-size: 27px;
+    }
+
+    h3{
+      line-height: 2.5;
+      font-size: 20px;
+    }
 
 
   li{
     list-style-type: none;
-    display: inline-block;
+    padding-right: 20px;
+    line-height: 2.3;
+    font-size: 17px;
   }
 
+
   a{
+    color: white;
+  }
+
+  i{
+    margin-right: 5px;
     color: grey;
+  }
+
+}
+
+
+div.subnav_header{
+
+  li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 40px;
   }
 
 }
