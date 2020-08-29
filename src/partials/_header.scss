@@ -81,26 +81,21 @@ div.jumbotron{
   background-repeat: no-repeat;
   color: white;
 
-  // display: flex;
-  // justify-content: space-around;
 
-  .essentials{
-    width: 25%;
-    padding-top: 37px;
-    margin-left: 34%;
+    .essentials{
+      padding-top: 37px;
+      margin-left: 34%;
+    }
 
-    float: left;
-  }
 
-  .offer{
-    width: 22%;
-    height: 430px;
-    margin-top: 1%;
-    background-color: black;
+    .square_black{
+      width: 62%;
+      height: 430px;
+      margin-top: 3%;
+      margin-left: 6%;
+      background-color: black;
+    }
 
-    float: left;
-
-  }
 
     h2{
       line-height: 2.5;
@@ -135,10 +130,26 @@ div.jumbotron{
 
 div.subnav_header{
 
+
+  height: 75px;
+  background-color: #E6E6E6;
+  display: flex;
+  align-items: center;
+
+
+  ul{
+    margin-left: 20%;
+  }
+
   li{
     list-style-type: none;
     display: inline-block;
     padding-right: 40px;
+  }
+
+  a{
+    color: black;
+    text-decoration: none;
   }
 
 }

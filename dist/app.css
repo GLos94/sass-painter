@@ -1,3 +1,28 @@
+.options {
+  height: 860px;
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg");
+  background-position: bottom center;
+  background-size: cover;
+}
+.options h1 {
+  font-size: 33px;
+  line-height: 2;
+  margin-top: 5%;
+  color: white;
+  text-align: center;
+}
+.options p {
+  font-size: 18px;
+  line-height: 2;
+  color: white;
+  text-align: center;
+}
+.options img {
+  width: 56%;
+  margin-left: 22%;
+  margin-top: 1%;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,28 +33,23 @@ div.personal {
   display: flex;
   justify-content: flex-end;
 }
-
 div.personal ul {
   margin-top: 9px;
   margin-right: 20%;
 }
-
 div.personal li {
   list-style-type: none;
   display: inline-block;
   padding-right: 20px;
 }
-
 div.personal a {
   color: grey;
   font-size: 12px;
   text-decoration: none;
 }
-
 div.personal a:hover {
   text-decoration: underline;
 }
-
 div.personal i {
   color: #009cff;
   margin-right: 9px;
@@ -39,30 +59,25 @@ div.navbar_header {
   height: 70px;
   background-color: black;
 }
-
 div.navbar_header ul {
   margin-left: 20%;
   padding-top: 20px;
 }
-
 div.navbar_header li {
   list-style-type: none;
   display: inline-block;
   padding-right: 40px;
 }
-
 div.navbar_header a {
   color: white;
   font-size: 14px;
   text-decoration: none;
 }
-
 div.navbar_header i {
   color: grey;
   font-size: 12px;
   margin-left: 5px;
 }
-
 div.navbar_header img {
   width: 92px;
 }
@@ -75,52 +90,56 @@ div.jumbotron {
   background-repeat: no-repeat;
   color: white;
 }
-
 div.jumbotron .essentials {
-  width: 25%;
   padding-top: 37px;
   margin-left: 34%;
-  float: left;
 }
-
-div.jumbotron .offer {
-  width: 22%;
+div.jumbotron .square_black {
+  width: 62%;
   height: 430px;
-  margin-top: 1%;
+  margin-top: 3%;
+  margin-left: 6%;
   background-color: black;
-  float: left;
 }
-
 div.jumbotron h2 {
   line-height: 2.5;
   font-size: 27px;
 }
-
 div.jumbotron h3 {
   line-height: 2.5;
   font-size: 20px;
 }
-
 div.jumbotron li {
   list-style-type: none;
   padding-right: 20px;
   line-height: 2.3;
   font-size: 17px;
 }
-
 div.jumbotron a {
   color: white;
 }
-
 div.jumbotron i {
   margin-right: 5px;
   color: grey;
 }
 
+div.subnav_header {
+  height: 75px;
+  background-color: #E6E6E6;
+  display: flex;
+  align-items: center;
+}
+div.subnav_header ul {
+  margin-left: 20%;
+}
 div.subnav_header li {
   list-style-type: none;
   display: inline-block;
   padding-right: 40px;
+}
+div.subnav_header a {
+  color: black;
+  text-decoration: none;
 }
 
 body {
@@ -129,3 +148,110 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* regole di colonna */
+[class*=col-] {
+  float: left;
+}
+
+.col-1 {
+  width: calc((100% / 12) * 1);
+}
+
+.col-2 {
+  width: calc((100% / 12) * 2);
+}
+
+.col-3 {
+  width: calc((100% / 12) * 3);
+}
+
+.col-4 {
+  width: calc((100% / 12) * 4);
+}
+
+.col-5 {
+  width: calc((100% / 12) * 5);
+}
+
+.col-6 {
+  width: calc((100% / 12) * 6);
+}
+
+.col-7 {
+  width: calc((100% / 12) * 7);
+}
+
+.col-8 {
+  width: calc((100% / 12) * 8);
+}
+
+.col-9 {
+  width: calc((100% / 12) * 9);
+}
+
+.col-10 {
+  width: calc((100% / 12) * 10);
+}
+
+.col-11 {
+  width: calc((100% / 12) * 11);
+}
+
+.col-12 {
+  width: calc((100% / 12) * 12);
+}
+
+/* regole di offset */
+.col-offset-1 {
+  margin-left: calc((100% / 12) * 1);
+}
+
+.col-offset-2 {
+  margin-left: calc((100% / 12) * 2);
+}
+
+.col-offset-3 {
+  margin-left: calc((100% / 12) * 3);
+}
+
+.col-offset-4 {
+  margin-left: calc((100% / 12) * 4);
+}
+
+.col-offset-5 {
+  margin-left: calc((100% / 12) * 5);
+}
+
+.col-offset-6 {
+  margin-left: calc((100% / 12) * 6);
+}
+
+.col-offset-7 {
+  margin-left: calc((100% / 12) * 7);
+}
+
+.col-offset-8 {
+  margin-left: calc((100% / 12) * 8);
+}
+
+.col-offset-9 {
+  margin-left: calc((100% / 12) * 9);
+}
+
+.col-offset-10 {
+  margin-left: calc((100% / 12) * 10);
+}
+
+.col-offset-11 {
+  margin-left: calc((100% / 12) * 11);
+}
+
+.col-offset-12 {
+  margin-left: calc((100% / 12) * 12);
+}
