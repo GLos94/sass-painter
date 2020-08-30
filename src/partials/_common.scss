@@ -63,10 +63,11 @@
 
 
 
+div.black_section{
+  background-color: #222;
+}
 
 div.black_section.top{
-
-    background-color: #222;
 
     h1{
       font-size: 33px;
@@ -94,18 +95,27 @@ div.black_section.top{
 
   div.black_section.center{
 
-      height: 590px;
-      background-color: #222;
+      padding-top: 90px;
+
 
       h2{
-        font-size: 18px;
+        font-size: 25px;
         color: white;
+        margin-top: 20%;
+        margin-bottom: 2%;
+        margin-left: 50%;
       }
 
       p{
-        font-size: 18px;
+        font-size: 17px;
         color: white;;
-        line-height: 2;
+        line-height: 1.5;
+        margin-left: 50%;
+      }
+
+
+      .col-5{
+        padding-bottom: 8.4%;
       }
 
 
@@ -115,19 +125,31 @@ div.black_section.top{
 
   div.black_section.bottom{
 
-      height: 590px;
-      background-color: #222;
+
+      padding-top: 90px;
+
 
       h2{
-        font-size: 18px;
+        font-size: 25px;
         color: white;
+        margin-top: 20%;
+        margin-bottom: 2%;
       }
 
       p{
-        font-size: 18px;
-        color: white;;
-        line-height: 2;
+        font-size: 17px;
+        color: white;
+        line-height: 1.5;
       }
+
+      img{
+        margin-left: 30%;
+      }
+
+      .col-5{
+        padding-bottom: 11.8%;
+      }
+
 
 
     }
