@@ -38,7 +38,7 @@ div.personal{
 
 div.navbar_header{
   height: 70px;
-  background-color: black;
+  background-color: $bg_primary;
 
 
     ul{
@@ -80,7 +80,7 @@ div.jumbotron{
   background-image: url('https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg');
   background-position: top center;
   background-repeat: no-repeat;
-  color: white;
+  color: $bg_secondary;
 
 
     .essentials{
@@ -94,7 +94,7 @@ div.jumbotron{
       height: 430px;
       margin-top: 3%;
       margin-left: 6%;
-      background-color: black;
+      background-color: $bg_primary;
     }
 
 
@@ -118,7 +118,7 @@ div.jumbotron{
 
 
   a{
-    color: white;
+    color: $bg_secondary;
   }
 
   i{
@@ -149,7 +149,7 @@ div.subnav_header{
   }
 
   a{
-    color: black;
+    color: $bg_primary;
     text-decoration: none;
   }
 
