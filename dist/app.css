@@ -344,9 +344,11 @@ footer div.copyright a:hover {
 footer div.copyright img {
   margin-right: 2%;
   padding-top: 2%;
+  padding-right: 2%;
 }
-footer div.copyright img #anti {
-  padding-top: 2%;
+footer div.copyright img#anti {
+  vertical-align: sub;
+  margin-top: 1%;
 }
 
 body {

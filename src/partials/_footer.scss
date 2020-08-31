@@ -107,10 +107,13 @@ footer{
         img{
           margin-right: 2%;
           padding-top: 2%;
+          padding-right: 2%;
 
-          #anti{
-            padding-top: 2%;
-          }
+
+          &#anti{
+            vertical-align: sub;
+            margin-top: 1%;
+           }
         }
 
 
